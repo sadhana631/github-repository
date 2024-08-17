@@ -5,7 +5,7 @@ const RepositoryItem = props => {
    const { 
       name, 
       imageUrl, 
-      starsCount, 
+      startsCount, 
       forksCount, 
       issuesCount,
    } = repositoryDetails
@@ -20,7 +20,7 @@ const RepositoryItem = props => {
              src="https://assets.ccbp.in/frontend/react-js/stars-count-img.png"
              alt="stars"
             />
-            <p className="stats-text">{starsCount} stars</p>  
+            <p className="stats-text">{startsCount} starts</p>  
          <div>  
          <div className="stats-container"
            <img
