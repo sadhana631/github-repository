@@ -1,5 +1,3 @@
-import './index.css'
-
 const RepositoryItem = props => {
    const {repositoryDetails} = props
    const { 
@@ -38,7 +36,7 @@ const RepositoryItem = props => {
             />
             <p className="stats-text">{issuesCount} open issues</p>  
          </div> 
-     </li>    
+       </li>    
    ) 
 }
 
