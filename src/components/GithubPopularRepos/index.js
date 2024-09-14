@@ -45,7 +45,7 @@ class GithubPopularRepos extends Component {
         id: eachRepository.id,
         imageUrl: eachRepository.avatar_url,
         name: eachRepository.name,
-        startsCount: eachRepository.starts_count,
+        starsCount: eachRepository.stars_count,
         forksCount: eachRepository.forks_count,
         issuesCount: eachRepository.issues_count,
       }))
@@ -100,7 +100,7 @@ class GithubPopularRepos extends Component {
         return this.renderRepositoriesListView()
       case apiStatusConstants.failure:
         return this.renderFailureView()
-      case apiStatusConstants.inProgress:
+      case apiStatusConstants.inprogress:
         return this.renderLoadingView()
       default:
         return null
